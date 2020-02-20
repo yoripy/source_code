@@ -2184,7 +2184,7 @@ $(window).on("popstate", function (event) {
 	<a href='<?php echo $filename;?>' >HEXファイルダウンロード</a><br>
 	<a href='<?php echo $inputfile;?>' >入力ファイルダウンロード</a>
 <br><h1>入力ページに戻る場合は下のボタンをクリック</h1>
-	<form method="post" action="php_test - 2_set - 4.php">
+	<form method="post" action="php_get.php">
 		<input type="hidden" name="check" value="true">
 		<input type="hidden" name="file1" value="<?php echo $inputfile;?>">
 		<input type="hidden" name="file2" value="<?php echo $filename;?>">
